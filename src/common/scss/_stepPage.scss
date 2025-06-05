@@ -1,0 +1,133 @@
+.stats-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  border-left: 1px solid rgba(0, 0, 0, 0.1); 
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  height: 80%;
+}
+
+.block{
+  width: 9rem;
+  height: 9rem;
+  background-color: #FBFBFB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.title-step{
+  font-size: 4rem;
+  color: #2a2b6b;
+  height: 100%;
+}
+
+.title-small{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.title-step {
+  font-size: 4rem;
+  color: #2a2b6b;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.stats-container:hover .title-step  {
+  background: linear-gradient(to right, #3b82f6, #ec4899); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: translateY(-3px);
+
+}
+
+@media (max-width: 767px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .container-step{
+    width: 100% !important;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .sticky {
+    position: relative !important;
+  }
+
+  .stats-container {
+    border-left: none !important;
+    margin: 0.5rem 0 !important;
+    border: none;
+    
+  }
+
+  .block {
+    width: 6rem !important;
+    height: 6rem !important;
+  }
+
+  .context-h2{
+    font-size: 3rem !important;
+    padding-top: 5px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .title-step {
+    font-size: 2rem !important;
+    width: max-content;
+  }
+
+  .stats-container:hover .title-step {
+    transform: none !important;
+  }
+
+  .container-step-content{
+    width: 100%;
+  }
+
+  .small-content{
+    display: flex !important;
+    margin: 0 !important;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 9rem !important;
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .block{
+    width: 5rem !important;
+    height: 5rem !important;
+
+  }
+
+  .title-3{
+    width: 60%
+  }
+}
+
+/* Riêng cho màn hình 320px */
+@media (max-width: 320px) {
+  .title-step {
+    font-size: 2rem !important;
+  }
+  
+  .block {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+}
+

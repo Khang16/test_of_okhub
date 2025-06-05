@@ -1,16 +1,25 @@
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 import homePageImage from "../common/images/homePage.png";
 
 const HomePage: React.FC = () => {
   const text = "ĐỒNG HÀNH KHỞI THỊNH VƯỢNG";
+  const containerRef = useRef(null);
+
+  const { scrollY } = useScroll();
+  const height = useTransform(scrollY, [0, 300], ["100vh", "50vh"]);
 
   return (
-    <div
-      className="w-full h-screen bg-cover bg-center bg-no-repeat relative"
-      style={{ backgroundImage: `url(${homePageImage})` }}
+    <motion.div
+      ref={containerRef}
+      className="w-full bg-cover bg-center bg-no-repeat relative"
+      style={{
+        backgroundImage: `url(${homePageImage})`,
+        height: height,
+      }}
     >
-      <div className="homepage-content text-center px-6">
-        <h1 className="homepage-label">
+      <div className="homepage-content text-center px-6 pt-32">
+        <h1 className="homepage-label text-white text-4xl font-bold">
           {text.split("").map((char, index) => (
             <motion.span
               key={index}
@@ -23,7 +32,7 @@ const HomePage: React.FC = () => {
           ))}
         </h1>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

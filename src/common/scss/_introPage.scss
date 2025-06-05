@@ -25,6 +25,11 @@
   font-size: 1rem;
 }
 @media (max-width: 767px) {
+  .container-intro {
+    height: max-content;
+    position: relative;
+    top: -10px
+  }
   .bg-intro-desktop {
     background-image: url("../images/div.f-img1.png");
     background-position: right;
@@ -46,6 +51,8 @@
 @media (max-width: 320px) {
   .container-intro {
     height: max-content;
+    position: relative;
+    top: -10px
   }
   .bg-intro-desktop {
     background-position: 60% center; 

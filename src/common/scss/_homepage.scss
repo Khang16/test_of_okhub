@@ -13,6 +13,7 @@
   padding: 0.5rem 0;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
   font-weight: 900;
+  line-height: 4.5rem;
 }
 
 @media (max-width: 767px) {
@@ -23,5 +24,7 @@
   }
   .homepage-label {
     font-size: 2rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
   }
 }

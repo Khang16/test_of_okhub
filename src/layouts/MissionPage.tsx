@@ -29,14 +29,13 @@ const missionList = [
 
 const MissionPage = () => {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center  relative overflow-hidden w-full pl-12 pr-12 -top-[370px] container-mission">
+    <div className="min-h-screen bg-white flex flex-col items-center  relative overflow-hidden w-full pl-16 pr-16 -top-[320px] container-mission">
       <div className="relative w-full flex flex-col items-center mb-12">
         <div className="mission-bg"></div>
         <div className="mission-header">
           <div className="mission-label">• SỨ MỆNH •</div>
           <div className="mission-title">
             Mang lại cuộc sống tốt đẹp hơn
-            <br />
             cho những người đồng hành
           </div>
         </div>
