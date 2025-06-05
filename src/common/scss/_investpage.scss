@@ -1,0 +1,101 @@
+.invest-content {
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+}
+.invest-label {
+  font-size: 16px;
+  color: #2566c5;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+  padding-top: 2rem;
+}
+
+.invest-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: linear-gradient(
+    90deg,
+    #2566c5,
+    #6c49cb,
+    #e14389,
+    #e02a3b
+  ); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2;
+}
+
+@media (max-width: 767px) {
+  .bg-intro-desktop-invest {
+    background-image: none !important;
+    height: 80rem;
+    padding: 0 !important;
+  }
+  .invest-content {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .invest-label {
+    font-size: 16px;
+    color: #2566c5;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    padding-top: 0;
+  }
+
+  .invest-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: linear-gradient(
+      90deg,
+      #2566c5,
+      #6c49cb,
+      #e14389,
+      #e02a3b
+    ); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+  }
+}
+
+.mobile-only-cards {
+  display: none;
+  @media (max-width: 767px) {
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .rounded-card:first-child {
+      background-color: #363882;
+    }
+    
+    .rounded-card {
+      width: 6.5rem;
+      height: 6.5rem;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+    .image-logo{
+      position: absolute;
+      top: 25rem;
+      z-index: 0;
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

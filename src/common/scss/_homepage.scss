@@ -1,0 +1,27 @@
+.homepage-content {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  text-align: left;
+  z-index: 10;
+  width: 50%;
+}
+
+.homepage-label {
+  font-size: 4rem;
+  color: #ffffff;
+  padding: 0.5rem 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
+}
+
+@media (max-width: 767px) {
+  .homepage-content {
+    bottom: 0.5rem;
+    left: 0rem;
+    width: 85%;
+  }
+  .homepage-label {
+    font-size: 2rem;
+  }
+}
