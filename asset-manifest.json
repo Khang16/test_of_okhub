@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test_of_okhub/static/css/main.000399cd.css",
-    "main.js": "/test_of_okhub/static/js/main.f2b913f3.js",
+    "main.css": "/test_of_okhub/static/css/main.81e77586.css",
+    "main.js": "/test_of_okhub/static/js/main.56538486.js",
     "static/js/453.7d5ef750.chunk.js": "/test_of_okhub/static/js/453.7d5ef750.chunk.js",
     "static/media/homePage.png": "/test_of_okhub/static/media/homePage.c35377559a7b0184b708.png",
     "static/media/div.f-img1.png": "/test_of_okhub/static/media/div.f-img1.3b7cd98c534aa862eefa.png",
@@ -57,12 +57,12 @@
     "static/media/Component3.svg": "/test_of_okhub/static/media/Component3.9161134c95d3e4a2fa921f29fb41a812.svg",
     "static/media/Component2.svg": "/test_of_okhub/static/media/Component2.01815e1f269b25d09cf954f5fb7d96f9.svg",
     "index.html": "/test_of_okhub/index.html",
-    "main.000399cd.css.map": "/test_of_okhub/static/css/main.000399cd.css.map",
-    "main.f2b913f3.js.map": "/test_of_okhub/static/js/main.f2b913f3.js.map",
+    "main.81e77586.css.map": "/test_of_okhub/static/css/main.81e77586.css.map",
+    "main.56538486.js.map": "/test_of_okhub/static/js/main.56538486.js.map",
     "453.7d5ef750.chunk.js.map": "/test_of_okhub/static/js/453.7d5ef750.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.000399cd.css",
-    "static/js/main.f2b913f3.js"
+    "static/css/main.81e77586.css",
+    "static/js/main.56538486.js"
   ]
 }
