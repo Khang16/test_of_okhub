@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/test_of_okhub/static/css/main.57fb6c27.css",
-    "main.js": "/test_of_okhub/static/js/main.8b542599.js",
+    "main.css": "/test_of_okhub/static/css/main.da9a64d7.css",
+    "main.js": "/test_of_okhub/static/js/main.ca70ad89.js",
     "static/js/453.7d5ef750.chunk.js": "/test_of_okhub/static/js/453.7d5ef750.chunk.js",
+    "static/media/119.mp4": "/test_of_okhub/static/media/119.9f436a269dc052f2f3a1.mp4",
     "static/media/homePage.png": "/test_of_okhub/static/media/homePage.c35377559a7b0184b708.png",
+    "static/media/friends.png": "/test_of_okhub/static/media/friends.d1b021b39951eaa557f8.png",
     "static/media/div.f-img1.png": "/test_of_okhub/static/media/div.f-img1.3b7cd98c534aa862eefa.png",
     "static/media/intro.png": "/test_of_okhub/static/media/intro.7c3cbeff3637cd502008.png",
+    "static/media/avatar1.1.png": "/test_of_okhub/static/media/avatar1.1.b6c629ea4f13207b9a96.png",
     "static/media/invest.png": "/test_of_okhub/static/media/invest.9201cf2ac7771b9cc0b4.png",
     "static/media/div.f-img.png": "/test_of_okhub/static/media/div.f-img.e47e0303b26faa207ffe.png",
     "static/media/earth.png": "/test_of_okhub/static/media/earth.37932f7d6d013bc3b1c7.png",
     "static/media/Switch.png": "/test_of_okhub/static/media/Switch.bd1118137b5731ec8789.png",
     "static/media/Vector211.png": "/test_of_okhub/static/media/Vector211.b8fd5208c888debd02de.png",
+    "static/media/friends-repo.png": "/test_of_okhub/static/media/friends-repo.50c471563da054f206a7.png",
     "static/media/Vector210.png": "/test_of_okhub/static/media/Vector210.dd7f09dbbb72141c3fc6.png",
     "static/media/inter-latin-ext-700-normal.woff": "/test_of_okhub/static/media/inter-latin-ext-700-normal.149d81a49bd1ff0e6711.woff",
     "static/media/inter-latin-ext-500-normal.woff": "/test_of_okhub/static/media/inter-latin-ext-500-normal.2b8be079a0e965b2f035.woff",
@@ -21,12 +25,15 @@
     "static/media/inter-latin-ext-500-normal.woff2": "/test_of_okhub/static/media/inter-latin-ext-500-normal.667f22c9b36deaea0f54.woff2",
     "static/media/inter-latin-400-normal.woff": "/test_of_okhub/static/media/inter-latin-400-normal.b0c8fe9db56dd415a25a.woff",
     "static/media/inter-latin-ext-400-normal.woff2": "/test_of_okhub/static/media/inter-latin-ext-400-normal.3d10c85fbd16969509a2.woff2",
+    "static/media/avatar2.png": "/test_of_okhub/static/media/avatar2.4b57e3723d908665ae7b.png",
     "static/media/inter-latin-500-normal.woff2": "/test_of_okhub/static/media/inter-latin-500-normal.5b7156f802c053798d95.woff2",
     "static/media/inter-latin-700-normal.woff2": "/test_of_okhub/static/media/inter-latin-700-normal.d42de9b25ac31d2a2a8b.woff2",
     "static/media/inter-latin-400-normal.woff2": "/test_of_okhub/static/media/inter-latin-400-normal.9698cc7dbf147ed363b6.woff2",
+    "static/media/avatar1.png": "/test_of_okhub/static/media/avatar1.b67337e074ecf94690e9.png",
     "static/media/inter-cyrillic-ext-500-normal.woff": "/test_of_okhub/static/media/inter-cyrillic-ext-500-normal.9160d5ba9e6099f95032.woff",
     "static/media/inter-cyrillic-ext-700-normal.woff": "/test_of_okhub/static/media/inter-cyrillic-ext-700-normal.3cf42e401103d3211022.woff",
     "static/media/inter-cyrillic-ext-400-normal.woff": "/test_of_okhub/static/media/inter-cyrillic-ext-400-normal.e89451624c6caf35687f.woff",
+    "static/media/haiQuan.png": "/test_of_okhub/static/media/haiQuan.8e65227b9311ae25a6ac.png",
     "static/media/inter-cyrillic-ext-700-normal.woff2": "/test_of_okhub/static/media/inter-cyrillic-ext-700-normal.5631f054acb5a33a716a.woff2",
     "static/media/inter-cyrillic-ext-500-normal.woff2": "/test_of_okhub/static/media/inter-cyrillic-ext-500-normal.023db878f10be2203b60.woff2",
     "static/media/inter-cyrillic-500-normal.woff": "/test_of_okhub/static/media/inter-cyrillic-500-normal.e824ac3c6c579cd0fe85.woff",
@@ -57,12 +64,12 @@
     "static/media/Component3.svg": "/test_of_okhub/static/media/Component3.9161134c95d3e4a2fa921f29fb41a812.svg",
     "static/media/Component2.svg": "/test_of_okhub/static/media/Component2.01815e1f269b25d09cf954f5fb7d96f9.svg",
     "index.html": "/test_of_okhub/index.html",
-    "main.57fb6c27.css.map": "/test_of_okhub/static/css/main.57fb6c27.css.map",
-    "main.8b542599.js.map": "/test_of_okhub/static/js/main.8b542599.js.map",
+    "main.da9a64d7.css.map": "/test_of_okhub/static/css/main.da9a64d7.css.map",
+    "main.ca70ad89.js.map": "/test_of_okhub/static/js/main.ca70ad89.js.map",
     "453.7d5ef750.chunk.js.map": "/test_of_okhub/static/js/453.7d5ef750.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.57fb6c27.css",
-    "static/js/main.8b542599.js"
+    "static/css/main.da9a64d7.css",
+    "static/js/main.ca70ad89.js"
   ]
 }
